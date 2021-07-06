@@ -1,0 +1,56 @@
+name: SurvivalTournament
+main: io.github.mymatsubara.survivaltournament.SurvivalTournament
+version: 1.0
+
+commands:
+    reset-tournament:
+        description: WARNING!!! Wipe all previous tournament data, remove all in-game teams, scoreboards and advancements.
+        usage: /reset-tournament
+        permission: survivaltournament.manage
+        permission-message: You don't have permission
+    change-password:
+        description: Change the password for an existing team.
+        usage: /change-password <team name> <new password>
+        permission: survivaltournament.manage
+        permission-message: You don't have permission. Ask for your server admin.
+    create-team:
+        description: Create a new team with password for this tournament.
+        usage: /create-team <team name> <team password>
+        permission: survivaltournament.login
+        permission-message: You don't have permission
+    join-team:
+        description: Join an existing team.
+        usage: /join-team <team name> <team password>
+        permission: survivaltournament.login
+        permission-message: You don't have permission
+    login:
+        description: Login into the tournament using your team password.
+        usage: /login <team password>
+        permission: survivaltournament.login
+        permission-message: You don't have permission
+    my-team:
+        description: get information about your team.
+        usage: /my-team
+        permission: survivaltournament.info
+        permission-message: You don't have permission
+    my-objectives:
+        description: get information about the tournament objectives.
+        usage: /my-objectives
+        permission: survivaltournament.info
+        permission-message: You don't have permission
+    objective:
+        description: get information about the tournament objectives.
+        usage: /objective <id>
+        permission: survivaltournament.info
+        permission-message: You don't have permission
+
+permissions:
+    survivaltournament.manage:
+        description: Give access to all management commands
+        default: op
+    survivaltournament.info:
+        description: Allow you to query info about the tournament
+        default: true
+    survivaltournament.login:
+        description: Allow you to create/join a team or login
+        default: true

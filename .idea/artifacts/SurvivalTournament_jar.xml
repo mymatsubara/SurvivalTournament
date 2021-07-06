@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SurvivalTournament:jar">
+    <output-path>$PROJECT_DIR$/server/plugins</output-path>
+    <root id="archive" name="SurvivalTournament.jar">
+      <element id="extracted-dir" path="$PROJECT_DIR$/target/SurvivalTournament.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

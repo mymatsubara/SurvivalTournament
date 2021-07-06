@@ -1,0 +1,17 @@
+{
+  "name": "Default Tournament",
+  "maxTeamMembers": 5,
+  "teamSpawnDistance":  200,
+  "originPoint": {
+    "x": 0,
+    "y": 0
+  },
+  "scoreboardTicksRefreshRate": 100,
+  "teamConfig": {
+    "collisionRule": "always",
+    "deathMessageVisibility": "hideForOtherTeams",
+    "friendlyFire": false,
+    "nametagVisibility": "hideForOtherTeams",
+    "seeFriendlyInvisibles": false
+  }
+}

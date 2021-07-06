@@ -1,0 +1,171 @@
+{
+  "scoreboards": [
+    {
+      "name": "Kills",
+      "displayName": "Kills",
+      "criteria": "playerKillCount",
+      "description": "Number of players killed.",
+      "points": 10
+    },
+    {
+      "name": "Deaths",
+      "displayName": "Deaths",
+      "criteria": "deathCount",
+      "description": "Number of times the player has died.",
+      "points": -1
+    },
+    {
+      "name": "Killed",
+      "displayName": "Killed by player",
+      "criteria": "minecraft.killed_by:minecraft.player",
+      "description": "Number of times the player has died to other player.",
+      "points": -10
+    }
+  ],
+  "advancements": [
+    {
+      "displayName": "Acquire Hardware",
+      "criteria": "story/smelt_iron",
+      "description": "Obtain an iron ingot.",
+      "points": 1
+    },
+    {
+      "displayName": "Diamonds!",
+      "criteria": "story/mine_diamond",
+      "description": "Have a diamond in your inventory.",
+      "points": 2
+    },
+    {
+      "displayName": "Eye Spy",
+      "criteria": "story/follow_ender_eye",
+      "description": "Enter a stronghold.",
+      "points": 5
+    },
+    {
+      "displayName": "The End?",
+      "criteria": "story/enter_the_end",
+      "description": "Travel to The End",
+      "points": 5
+    },
+    {
+      "displayName": "Zombie Doctor",
+      "criteria": "story/cure_zombie_villager",
+      "description": "Throw a splash potion of Weakness at a zombie villager, feed it a golden apple, and wait for it to be cured.",
+      "points": 30
+    },
+    {
+      "displayName": "Nether",
+      "criteria": "nether/root",
+      "description": "Enter the Nether dimension.",
+      "points": 1
+    },
+    {
+      "displayName": "Return to Sender",
+      "criteria": "nether/return_to_sender",
+      "description": "Kill a ghast using a ghast fireball.",
+      "points": 3
+    },
+    {
+      "displayName": "Those Were the Days",
+      "criteria": "nether/find_bastion",
+      "description": "Enter a Bastion Remnant",
+      "points": 2
+    },
+    {
+      "displayName": "Those Were the Days",
+      "criteria": "nether/find_bastion",
+      "description": "Enter a Bastion Remnant",
+      "points": 2
+    },
+    {
+      "displayName": "Hidden in the Depths",
+      "criteria": "nether/obtain_ancient_debris",
+      "description": "Obtain Ancient Debris.",
+      "points": 2
+    },
+    {
+      "displayName": "Cover Me in Debris",
+      "criteria": "nether/netherite_armor",
+      "description": "Obtain a full set of netherite armor.",
+      "points": 20
+    },
+    {
+      "displayName": "Hot Tourist Destinations",
+      "criteria": "nether/explore_nether",
+      "description": "Explore all Nether biomes.",
+      "points": 20
+    },
+    {
+      "displayName": "Withering Heights",
+      "criteria": "nether/summon_wither",
+      "description": "Summon the Wither",
+      "points": 20
+    },
+    {
+      "displayName": "How Did We Get Here?",
+      "criteria": "nether/all_effects",
+      "description": "Have every effect applied at the same time.",
+      "points": 100
+    },
+    {
+      "displayName": "Free the End",
+      "criteria": "end/kill_dragon",
+      "description": "Kill the ender dragon.",
+      "points": 50
+    },
+    {
+      "displayName": "The Next Generation",
+      "criteria": "end/dragon_egg",
+      "description": "Have a dragon egg in your inventory.",
+      "points": 10
+    },
+    {
+      "displayName": "The End... Again...",
+      "criteria": "end/respawn_dragon",
+      "description": "Summon an ender dragon using end crystals.",
+      "points": 30
+    },
+    {
+      "displayName": "Sky's the Limit",
+      "criteria": "end/elytra",
+      "description": "Have a pair of elytra in your inventory.",
+      "points": 10
+    },
+    {
+      "displayName": "Voluntary Exile",
+      "criteria": "adventure/voluntary_exile",
+      "description": "Kill a raid captain.",
+      "points": 10
+    },
+    {
+      "displayName": "Voluntary Exile",
+      "criteria": "adventure/voluntary_exile",
+      "description": "Kill a raid captain.",
+      "points": 10
+    },
+    {
+      "displayName": "Hero of the Village",
+      "criteria": "adventure/hero_of_the_village",
+      "description": "Successfully defend a village from a raid.",
+      "points": 10
+    },
+    {
+      "displayName": "Monsters Hunted",
+      "criteria": "adventure/kill_all_mobs",
+      "description": "Kill one of every hostile monster",
+      "points": 100
+    },
+    {
+      "displayName": "Postmortal",
+      "criteria": "adventure/totem_of_undying",
+      "description": "Activate a totem of undying by taking fatal damage.",
+      "points": 10
+    },
+    {
+      "displayName": "Serious Dedication",
+      "criteria": "husbandry/obtain_netherite_hoe",
+      "description": "Have a netherite hoe in your inventory.",
+      "points": 20
+    }
+  ]
+}
